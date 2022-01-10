@@ -7,7 +7,7 @@ int main()
 
     for (int i = 1; i < 10; i++)
     {
-        a += (2 ^ i);
+        a += (2 i);
     }
     printf("%d", a);
 

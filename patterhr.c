@@ -4,7 +4,7 @@ int main()
 {
     int n, m, a, b, c, k, x;
     // scanf("%d", &n);
-    n = 4;
+    n = 11;
     k = n;
 
     m = 2 * n - 1;

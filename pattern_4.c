@@ -83,6 +83,24 @@ int main()
 
     for (int s = 1; s < 6; s++)
     {
+        for (int ss = 0; ss < 9 - s; ss++)
+        {
+            printf("*");
+        }
+        for (int sm = 1; sm < s + 1; sm++)
+        {
+            printf("%d", s);
+            if (sm != s)
+            {
+                printf("*");
+            }
+        }
+
+        for (int sss = 0; sss < 9 - s; sss++)
+        {
+            printf("*");
+        }
+        printf("\n");
     }
 
     return 0;

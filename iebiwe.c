@@ -2,13 +2,13 @@
 
 int main()
 {
-    int i = 1;
-    while (1)
+
+    for (int x = 1; x <= 10; x = x + 1)
     {
-        printf("%d ", i);
-        if (i == 10)
-            break;
-        i = i + 1;
+
+        if (x == 5)
+            continue;
+        printf("%d ", x);
     }
 
     return 0;
